@@ -57,8 +57,6 @@ Engineering student @ **INSAT, Tunisia** — building things at the intersection
 After identifying critical limitations in existing public datasets, generated a **synthetic network traffic dataset (91K+ samples)** with 11 statistical features via a custom sliding-window pipeline.
 
 Benchmarked **8 detection models** → selected **Autoencoder with Dropout**:
-**AUC-ROC = 1.000 · F1 = 0.9999 · FPR = 0.01%**
-
 Federated Learning (FedAvg) across distributed clients — no raw data centralization.
 
 Human-in-the-loop module with confidence scoring for uncertain cases.
