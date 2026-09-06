@@ -8,109 +8,53 @@ Final-year Engineering student @ **INSAT, Tunisia** — building things at the i
 -  eya.khlifi@insat.ucar.tn · [LinkedIn](https://linkedin.com/in/eya-khlifi)
 - *Tunis, Tunisia · Open to relocation*
 
-## Stack
+Tech Stack & Tools
+AI / ML & LLMs: PyTorch · TensorFlow · HuggingFace · Qwen2-VL · LoRA/QLoRA · Unsloth · llama.cpp · Federated Learning · scikit-learn
 
-**Languages**
+RAG & Vector Storage: RAG (from scratch) · ChromaDB · Sentence-Transformers · Groq
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+Data & Automation: Selenium · BeautifulSoup
 
-**AI & ML**
+Featured Projects
+FedGuard — Federated Learning DDoS Detection
+Privacy-preserving intrusion detection system using Federated Learning
 
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
-![Unsloth](https://img.shields.io/badge/Unsloth-FF6F00?style=for-the-badge&logo=lightning&logoColor=white)
-![QLoRA](https://img.shields.io/badge/QLoRA-8A2BE2?style=for-the-badge)
-![Federated Learning](https://img.shields.io/badge/Federated_Learning-1E90FF?style=for-the-badge)
+Designed a synthetic network dataset (91K+ samples) and evaluated 8 anomaly detection models.
 
-**LLM & Retrieval Tooling**
+Implemented a Dropout Autoencoder via FedAvg (F1 = 0.9999 on synthetic split) with human-in-the-loop confidence scoring.
 
-![Groq](https://img.shields.io/badge/Groq-F55036?style=for-the-badge&logoColor=white)
-![Sentence Transformers](https://img.shields.io/badge/Sentence--Transformers-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
-![llama.cpp](https://img.shields.io/badge/llama.cpp-000000?style=for-the-badge)
-![LangChain-free RAG](https://img.shields.io/badge/RAG_from_scratch-4B8BBE?style=for-the-badge)
+Python PyTorch Federated Learning Anomaly Detection
 
-**Frameworks & Backend**
+DealDocAI — RAG Legal Document Intelligence
+LangChain-free RAG engine for SEC legal filings
 
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
-![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
-![Symfony](https://img.shields.io/badge/Symfony-000000?style=for-the-badge&logo=symfony&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
+Built end-to-end vector retrieval and citation-grounded extraction using SentenceTransformers & ChromaDB.
 
-**Databases**
+Served via FastAPI REST API powered by Llama 3.3 70B on Groq for structured deal-term extraction.
 
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![ChromaDB](https://img.shields.io/badge/ChromaDB-F97316?style=for-the-badge&logo=databricks&logoColor=white)
+FastAPI ChromaDB Sentence-Transformers Groq
 
-**Data Collection & Tools**
+Experience
+AI Engineering Intern · Anavid (Remote, France) · Jun 2026 – Sep 2026
 
-![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
-![BeautifulSoup](https://img.shields.io/badge/BeautifulSoup-4B8BBE?style=for-the-badge)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+Fine-tuned Qwen2-VL-7B (QLoRA) on dual T4 GPUs for CCTV suspicious behavior detection; improved F1 score to 0.67 via group-aware splits and custom prompt engineering.
 
+AI Engineering Intern · Yonnov'IA (Remote, France) · Jun 2025 – Aug 2025
 
-## Featured Projects
+Fine-tuned Qwen2.5-7B with LoRA/Unsloth across 200K+ multilingual audit samples (FR/EN/AR); deployed locally via llama.cpp for <2s latency.
 
-### 🛡️ [FedGuard — Federated Learning for Real-Time DDoS Detection](https://github.com/Eya-KHLIFI/Federated-Learning-for-DDoS-Detection)
-*Ongoing · 2026*
+Software Engineering Intern · ETC Tunisia · Jul 2024
 
-Generated a synthetic labelled dataset (**91K+ network traffic samples**) with 11 statistical features via sliding-window aggregation, after identifying critical reproducibility and distribution limitations in public datasets.
+Developed a scalable multi-entity search service using Symfony.
 
-Evaluated **8 anomaly-detection and classification models** → selected a **Dropout Autoencoder** achieving AUC-ROC = 1.000, F1 = 0.9999, FPR = 0.01% on test set *(near-perfect results reflect a test set generated by the same synthetic process as the training data — real generalization not yet established; currently validating on the real-world CAIDA dataset for out-of-distribution performance)*.
+Certifications
+Machine Learning Specialization — DeepLearning.AI
 
-Designed a privacy-preserving **Federated Learning** system across 3 simulated clients with temporal non-IID data split (KS = 0.213), compared FedAvg and FedProx aggregation strategies and selected FedAvg, matching centralized training metrics.
+Introduction to Generative AI Learning Path — Google Cloud
 
-Identified a decision-threshold calibration issue affecting alert consistency across clients, and implemented a **human-in-the-loop confidence scoring module** routing ambiguous windows to analyst review.
+Connect and Protect: Networks and Network Security — Google
 
-`Python` `PyTorch` `Federated Learning` `Anomaly Detection`
-
-
-### 📄 [DealDocAI — RAG-Based Legal Document Intelligence](https://github.com/Eya-KHLIFI)
-*2026*
-
-Built an end-to-end RAG pipeline for SEC legal filings using SentenceTransformers embeddings and ChromaDB for semantic retrieval.
-
-Implemented citation-grounded question answering and structured deal-term extraction with JSON outputs.
-
-Engineered the RAG stack from scratch, without LangChain — document chunking, embedding generation, vector retrieval, prompt construction, and LLM generation all built directly.
-
-Developed multi-query retrieval and a FastAPI REST API with Pydantic validation, using Llama 3.3 70B via Groq for generation.
-
-`FastAPI` `ChromaDB` `Sentence-Transformers` `Groq (Llama 3.3 70B)` `BeautifulSoup`
-
-
-## Experience
-
-**AI Engineering Intern · Anavid** *(France, Remote · Jun–Sep 2026)*  
-*Real-time suspicious behavior detection in retail CCTV using Vision-Language Models*  
-Benchmarked 5 VLMs on UCF-Crime and selected **Qwen2-VL-7B-Instruct**, building a failure mode taxonomy to guide downstream design · defined 7 behavior categories and curated/labeled CCTV clips, formatted as ShareGPT instruction pairs · **QLoRA** fine-tuned (4-bit NF4, rank 16) on dual T4 GPUs — V1 (7-class) collapsed to 2.1% held-out recall, traced to data leakage; redesigned with a group-aware split for **V2** (binary), achieving a 2.5× F1 improvement · prompt engineering (5 variants) boosted F1 from 0.44 to 0.67 and recall to 79% without retraining · confidence calibration analysis (ECE = 0.266) revealed raw confidence scores are unusable for threshold-based routing
-
-**AI Engineering Intern · Yonnov'IA** *(France, Remote · Jun–Aug 2025)*  
-*Yonn-GPT — fully local multilingual internal audit assistant*  
-Benchmarked 8+ open-source LLMs and selected **Qwen2.5-7B-Instruct** · built a 200K+ sample multilingual pipeline (FR/EN/AR) — OCR extraction, chunking, metadata tagging, automated Q&A generation with difficulty scaling and paraphrasing — formatted in ChatML for fine-tuning · fine-tuned with **LoRA (PEFT + Unsloth, 8-bit)** for domain adaptation to internal audit · integrated a **RAG pipeline** (SentenceTransformers embeddings, ChromaDB retrieval, Redis short-term context with sliding-window memory) to ground responses and cut hallucinations · deployed fully local via **llama.cpp + quantization**, reaching <2s chat latency on CPU · built a secure backend (**FastAPI + PostgreSQL + JWT**) and a Dockerized web UI with document upload and configurable settings
-
-**Software Engineering Intern · ETC Tunisia** *(Jul 2024)*  
-Scalable multi-entity search service in Symfony
-
-
-## Certificates
-
-- **Machine Learning Specialization** — DeepLearning.AI *(Apr 2026)*
-- **Introduction to Generative AI Learning Path** — Google Cloud *(Apr 2026)*
-- **Connect and Protect: Networks and Network Security** — Google *(Jul 2024)*
-- **Foundations of Cybersecurity** — Google *(Jul 2023)*
+Foundations of Cybersecurity — Google
 
 <u>[Full list of certifications](https://drive.google.com/drive/folders/1SOgdLK2VlNJZcGigoosboFTH5PQXHcQW?usp=drive_link)</u>
 
