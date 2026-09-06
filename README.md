@@ -1,10 +1,10 @@
 ![header](https://capsule-render.vercel.app/api?type=waving&color=0:e96c4c,50:b44fc4,100:3d5af1&text=Hey%20there,%20I'm%20Eya%20!&height=120&section=header&fontColor=ffffff&fontSize=40&fontAlign=50&fontAlignY=55&animation=fadeIn)
 
-Engineering student @ **INSAT, Tunisia** — building things at the intersection of **AI and security**.
+Final-year Engineering student @ **INSAT, Tunisia** — building things at the intersection of **AI and security**.
 
 -  Networks & Telecom Engineering · AI specialization · Cybersecurity track  
--  Currently: building a federated learning IDS for real-time DDoS detection *(PFA)*  
--  Looking for an AI / AI-Security / SWE internship from June 2026 — remote or on-site  
+-  Currently: building a federated learning IDS for real-time DDoS detection  
+-  Looking for a 6-month end-of-study internship in AI / AI-Security / SWE, starting February 2027 — remote or on-site  
 -  eya.khlifi@insat.ucar.tn · [LinkedIn](https://linkedin.com/in/eya-khlifi)
 - *Tunis, Tunisia · Open to relocation*
 
@@ -64,7 +64,7 @@ Engineering student @ **INSAT, Tunisia** — building things at the intersection
 ## Featured Projects
 
 ### 🛡️ [FedGuard — Federated Learning for Real-Time DDoS Detection](https://github.com/Eya-KHLIFI/Federated-Learning-for-DDoS-Detection)
-*End-of-Year Project (PFA) · Ongoing · 2026*
+*Ongoing · 2026*
 
 Generated a synthetic labelled dataset (**91K+ network traffic samples**) with 11 statistical features via sliding-window aggregation, after identifying critical reproducibility and distribution limitations in public datasets.
 
@@ -98,7 +98,8 @@ Developed multi-query retrieval and a FastAPI REST API with Pydantic validation,
 Benchmarked 5 VLMs on UCF-Crime and selected **Qwen2-VL-7B-Instruct**, building a failure mode taxonomy to guide downstream design · defined 7 behavior categories and curated/labeled CCTV clips, formatted as ShareGPT instruction pairs · **QLoRA** fine-tuned (4-bit NF4, rank 16) on dual T4 GPUs — V1 (7-class) collapsed to 2.1% held-out recall, traced to data leakage; redesigned with a group-aware split for **V2** (binary), achieving a 2.5× F1 improvement · prompt engineering (5 variants) boosted F1 from 0.44 to 0.67 and recall to 79% without retraining · confidence calibration analysis (ECE = 0.266) revealed raw confidence scores are unusable for threshold-based routing
 
 **AI Engineering Intern · Yonnov'IA** *(France, Remote · Jun–Aug 2025)*  
-8+ LLMs benchmarked · 200K+ sample multilingual pipeline (FR/EN/AR) · Qwen2.5-7B fine-tuned with LoRA 8-bit 
+*Yonn-GPT — fully local multilingual internal audit assistant*  
+Benchmarked 8+ open-source LLMs and selected **Qwen2.5-7B-Instruct** · built a 200K+ sample multilingual pipeline (FR/EN/AR) — OCR extraction, chunking, metadata tagging, automated Q&A generation with difficulty scaling and paraphrasing — formatted in ChatML for fine-tuning · fine-tuned with **LoRA (PEFT + Unsloth, 8-bit)** for domain adaptation to internal audit · integrated a **RAG pipeline** (SentenceTransformers embeddings, ChromaDB retrieval, Redis short-term context with sliding-window memory) to ground responses and cut hallucinations · deployed fully local via **llama.cpp + quantization**, reaching <2s chat latency on CPU · built a secure backend (**FastAPI + PostgreSQL + JWT**) and a Dockerized web UI with document upload and configurable settings
 
 **Software Engineering Intern · ETC Tunisia** *(Jul 2024)*  
 Scalable multi-entity search service in Symfony
