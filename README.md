@@ -99,7 +99,7 @@ Benchmarked 5 VLMs on UCF-Crime and selected **Qwen2-VL-7B-Instruct**, building 
 
 **AI Engineering Intern · Yonnov'IA** *(France, Remote · Jun–Aug 2025)*  
 *Yonn-GPT — fully local multilingual internal audit assistant*  
-Benchmarked 8+ open-source LLMs and selected **Qwen2.5-7B-Instruct** · built a 200K+ sample multilingual pipeline (FR/EN/AR) — OCR extraction, chunking, metadata tagging, automated Q&A generation with difficulty scaling and paraphrasing — formatted in ChatML for fine-tuning · fine-tuned with **LoRA (PEFT + Unsloth, 8-bit)** for domain adaptation to internal audit · integrated a **RAG pipeline** (SentenceTransformers embeddings, ChromaDB retrieval, Redis short-term context with sliding-window memory) to ground responses and cut hallucinations · deployed fully local via **llama.cpp + quantization**, reaching <2s chat latency on CPU · built a secure backend (**FastAPI + PostgreSQL + JWT**) and a Dockerized web UI with document upload and configurable settings
+Benchmarked 8+ open-source LLMs and selected **Qwen2.5-7B-Instruct** · built a 200K+ sample multilingual pipeline (FR/EN/AR) — OCR extraction, chunking, metadata tagging, automated Q&A generation with difficulty scaling and paraphrasing — formatted in ChatML for fine-tuning · fine-tuned with **LoRA (PEFT + Unsloth, 8-bit)** for domain adaptation to internal audit · deployed fully local via **llama.cpp + quantization**, reaching <2s chat latency on CPU · 
 
 **Software Engineering Intern · ETC Tunisia** *(Jul 2024)*  
 Scalable multi-entity search service in Symfony
