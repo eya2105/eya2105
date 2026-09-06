@@ -8,17 +8,13 @@ Final-year Engineering student @ **INSAT, Tunisia** — building things at the i
 -  eya.khlifi@insat.ucar.tn · [LinkedIn](https://linkedin.com/in/eya-khlifi)
 - *Tunis, Tunisia · Open to relocation*
 
-## Stack
+## Some Tools I Have Used and Learned
 
 <p align="left">
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=python,c,cpp,js,php,java,html,css,pytorch,tensorflow,fastapi,django,nestjs,symfony,spring,postgres,mysql,docker,linux,git" />
   </a>
 </p>
-
-* **AI / ML & LLMs:** HuggingFace · Qwen2-VL · LoRA/QLoRA · Unsloth · llama.cpp · Federated Learning · scikit-learn
-* **RAG & Retrieval:** RAG (from scratch) · ChromaDB · Sentence-Transformers · Groq
-* **Data & Tools:** Selenium · BeautifulSoup
 
 ## Projects
 
@@ -28,7 +24,7 @@ Final-year Engineering student @ **INSAT, Tunisia** — building things at the i
 Privacy-preserving intrusion detection system using Federated Learning across simulated clients.
 
 - Generated a synthetic network dataset (91K+ samples) and evaluated 8 anomaly detection models.
-- Implemented a Dropout Autoencoder via FedAvg (F1 = 0.9999 on synthetic split) with human-in-the-loop confidence scoring.
+- Implemented a Dropout Autoencoder via FedAvg with human-in-the-loop confidence scoring.
 
 `Python` `PyTorch` `Federated Learning` `Anomaly Detection`
 
