@@ -1,4 +1,3 @@
-```markdown
 ![header](https://capsule-render.vercel.app/api?type=waving&color=0:e96c4c,50:b44fc4,100:3d5af1&text=Hey%20there,%20I'm%20Eya%20!&height=120&section=header&fontColor=ffffff&fontSize=40&fontAlign=50&fontAlignY=55&animation=fadeIn)
 
 <div align="center">
