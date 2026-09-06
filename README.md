@@ -77,7 +77,7 @@ Identified a decision-threshold calibration issue affecting alert consistency ac
 `Python` `PyTorch` `Federated Learning` `Anomaly Detection`
 
 
-### 📄 [DealDocAI — RAG-Based Legal Document Intelligence]([https://github.com/Eya-KHLIFI](https://github.com/eya2105/dealdoc-ai.git))
+### 📄 [DealDocAI — RAG-Based Legal Document Intelligence](https://github.com/eya2105/dealdoc-ai.git)
 *2026*
 
 Built an end-to-end RAG pipeline for SEC legal filings using SentenceTransformers embeddings and ChromaDB for semantic retrieval.
